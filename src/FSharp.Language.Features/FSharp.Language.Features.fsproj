@@ -13,6 +13,7 @@
     <Compile Include="ComplexTypes.fs" />
     <Compile Include="PureFunctions.fs" />
     <Compile Include="ErrorResults.fs" />
+    <Compile Include="Composition.fs" />
   </ItemGroup>
 
 </Project>
