@@ -43,6 +43,7 @@ module PureRecords =
             { Street = "456 Windy Lane"
               City = "Wellington" }
 
+        //Does the order I create these in matter?
         let accountWithNewManager =
             account |> withManager (Some newManager)
 
