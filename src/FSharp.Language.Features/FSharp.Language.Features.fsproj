@@ -11,6 +11,7 @@
     <Compile Include="Nullability.fs" />
     <Compile Include="Equality.fs" />
     <Compile Include="ComplexTypes.fs" />
+    <Compile Include="PureFunctions.fs" />
   </ItemGroup>
 
 </Project>
