@@ -60,6 +60,10 @@ module ImmutableRecord =
         //        p.First <- "Nice try"
         p.First
 
+    let newPerson () =
+        let p2 = { p with First = "Kevin" }
+        p2
+
 module ImmutableChoice =
     type Temp =
         | DegreesC of float
