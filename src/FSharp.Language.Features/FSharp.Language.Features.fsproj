@@ -12,6 +12,7 @@
     <Compile Include="Equality.fs" />
     <Compile Include="ComplexTypes.fs" />
     <Compile Include="PureFunctions.fs" />
+    <Compile Include="ErrorResults.fs" />
   </ItemGroup>
 
 </Project>
