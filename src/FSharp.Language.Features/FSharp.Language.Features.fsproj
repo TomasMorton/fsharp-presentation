@@ -10,6 +10,7 @@
     <Compile Include="Immutability.fs" />
     <Compile Include="Nullability.fs" />
     <Compile Include="Equality.fs" />
+    <Compile Include="ComplexTypes.fs" />
   </ItemGroup>
 
 </Project>
