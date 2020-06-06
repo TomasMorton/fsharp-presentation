@@ -8,6 +8,7 @@
     <Compile Include="Types.fs" />
     <Compile Include="SyntaxAndOperators.fs" />
     <Compile Include="Immutability.fs" />
+    <Compile Include="Nullability.fs" />
   </ItemGroup>
 
 </Project>
