@@ -9,6 +9,7 @@
     <Compile Include="SyntaxAndOperators.fs" />
     <Compile Include="Immutability.fs" />
     <Compile Include="Nullability.fs" />
+    <Compile Include="Equality.fs" />
   </ItemGroup>
 
 </Project>
