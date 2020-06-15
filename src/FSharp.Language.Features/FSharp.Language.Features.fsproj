@@ -11,10 +11,11 @@
     <Compile Include="Nullability.fs" />
     <Compile Include="Equality.fs" />
     <Compile Include="ComplexTypes.fs" />
-    <Compile Include="EnumSafety.fs" />
+    <Compile Include="MatchExpressions.fs" />
     <Compile Include="PureFunctions.fs" />
     <Compile Include="ErrorResults.fs" />
     <Compile Include="Composition.fs" />
+    <Compile Include="EnumSafety.fs" />
   </ItemGroup>
 
 </Project>
