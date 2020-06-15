@@ -4,7 +4,7 @@ let matchBool b =
     match b with
     | true -> 1
     | false -> 0
-    | _ -> raise (System.Exception "JavaScript?")
+//  | _ -> raise (System.Exception "JavaScript?")
 
 let matchInt x =
     match x with
