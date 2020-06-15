@@ -10,7 +10,7 @@ open CSharp.Dependencies
 module FromValuesShould =
     let propertyName = "DateRange"
 
-    let fromValues (startDate : DateTime) endDate =
+    let fromValues startDate endDate =
         DateRange.FromValues(startDate, endDate, propertyName)
     
     [<Property>]

@@ -13,23 +13,6 @@ namespace CSharp.Dependencies
             End = end;
         }
 
-        public static Result<DateRange> FromValues(string start, string end, string subject)
-        {
-            var startDateValidator = new DateTimeValidator(start, "startDate");
-            var endDateValidator = new DateTimeValidator(end, "endDate");
-            var validation = startDateValidator.And(endDateValidator).Validate();
-
-            if (!validation.IsOk)
-            {
-                return Result.Failed<DateRange>(validation.Errors);
-            }
-
-            var startDate = DateTime.Parse(start);
-            var endDate = DateTime.Parse(end);
-
-            return FromValues(startDate, endDate, subject);
-        }
-
         public static Result<DateRange> FromValues(DateTime startDate, DateTime endDate, string subject)
         {
             var validator = new DateRangeValidator(startDate, endDate, subject);
